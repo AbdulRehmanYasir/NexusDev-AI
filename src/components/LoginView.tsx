@@ -344,14 +344,14 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
                 <div className="flex items-center gap-2 text-gray-400 text-[10px] sm:text-[11px] truncate">
                   <Key className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
                   <div className="truncate">
-                    <div className="text-gray-300 font-semibold leading-tight">Admin Demo Credentials</div>
-                    <div className="text-[9px] sm:text-[10px] text-gray-500 truncate">admin@nexusdev.ai / nexusdev2026</div>
+                    <div className="text-gray-300 font-semibold leading-tight">Demo Account</div>
+                    <div className="text-[9px] sm:text-[10px] text-gray-500 truncate">demo@nexusdev.ai / demo2026</div>
                   </div>
                 </div>
                 <button
                   type="button"
                   id="autofill-demo-btn"
-                  onClick={() => handleQuickFill('admin@nexusdev.ai', 'nexusdev2026')}
+                  onClick={() => handleQuickFill('demo@nexusdev.ai', 'demo2026')}
                   className="px-2 py-1 rounded bg-[#1A1D23] hover:bg-[#2D3748] border border-[#374151] text-[9px] sm:text-[10px] text-emerald-400 font-semibold transition cursor-pointer hover:text-emerald-300 shrink-0 ml-2"
                 >
                   AUTO-FILL
@@ -952,3 +952,4 @@ export const LoginView: React.FC<LoginViewProps> = ({ onLoginSuccess }) => {
     </div>
   );
 };
+

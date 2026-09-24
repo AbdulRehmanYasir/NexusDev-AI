@@ -2,6 +2,16 @@ import { LoginAuditRecord, ManagedUser } from '../types';
 
 export const initialManagedUsers: ManagedUser[] = [
   {
+    id: 'usr_demo_01',
+    name: 'NexusDev Demo',
+    email: 'demo@nexusdev.ai',
+    role: 'Developer',
+    status: 'ACTIVE',
+    createdAt: '2026-09-24T00:00:00Z',
+    lastLoginAt: null,
+    avatar: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=120'
+  },
+  {
     id: 'usr_admin_01',
     name: 'Abdul Rehman Yasir',
     email: 'admin@nexusdev.ai',
@@ -156,3 +166,5 @@ export const initialLoginAuditRecords: LoginAuditRecord[] = [
     environment: 'NEBULA_PROD'
   }
 ];
+
+
